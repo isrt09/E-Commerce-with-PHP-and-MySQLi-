@@ -1,0 +1,80 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+
+	background:#39C
+}
+.main_wrapper{
+	margin: auto;
+	height: auto;
+	width: 1000px;
+}
+.header_wrapper{
+	width:1000px;
+	height:100px;
+	background:#FFF;
+}
+
+.navbar_wrapper{
+	width:1000px;
+	height:50px;
+	background:#000;
+	color:#FFF;
+}
+
+.content_wrapper{
+	width: 1000px;
+	height: 600px;
+	background: #FCC	
+}
+
+.right_content{
+	width: 750px;
+	height: 600px;
+	background: #FCC;
+	float:right;
+}
+.left_sidebar{
+	width: 250px;
+	height: 600px;
+	background: #989;
+	float:left;
+	color:#FFF;
+}
+
+.footer_wrapper{
+	width: 1000px;
+	height: 100px;
+	background: #999;
+	color:#FFF;
+	clear:both;
+}
