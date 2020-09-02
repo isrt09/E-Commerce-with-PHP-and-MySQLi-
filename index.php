@@ -37,7 +37,26 @@
 		<div class="content_wrapper">
 			<!-- Left Sidebar Start -->
 			<div class="left_sidebar">
-				<?php echo "LEFT SIDEBAR"; ?>
+				<div class="sidebar_title">Categories</div>
+				<ul id="category">
+					<li><a href="">Laptop</a></li>
+					<li><a href="">Mobile</a></li>
+					<li><a href="">Camera</a></li>
+					<li><a href="">Tables</a></li>
+					<li><a href="">Monitor</a></li>
+					<li><a href="">Printer</a></li>
+					<li><a href="">Tablet</a></li>
+				</ul>
+				<div class="brand_title">Brand</div>
+				<ul id="brand">
+					<li><a href="">Apple</a></li>
+					<li><a href="">Sumsung</a></li>
+					<li><a href="">Huawei</a></li>
+					<li><a href="">HP</a></li>
+					<li><a href="">ASUS</a></li>
+					<li><a href="">DELL</a></li>
+					<li><a href="">FUJITSU</a></li>
+				</ul>
 			</div>
 			<!-- Left Sidebar End -->
 			<!-- Right Content -->
@@ -49,7 +68,7 @@
 		<!-- Main Content Ends -->
 		<!-- Footer Start -->
 		<div class="footer_wrapper">
-			<?php echo "FOOTER"; ?>
+			<h1 style="color: #000; text-align: center; padding-top: 50px;">&copy; 2020 - By www.mazedur.com</h1>
 		</div>
 		<!-- Footer End -->
 	</div>

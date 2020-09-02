@@ -76,25 +76,54 @@ display:inline;
 	color: yellow;
 	font-weight: bolder;
 }
-
+.form{
+	line-height:50px;
+	float: left; 
+}
 .content_wrapper{
 	width: 1000px;
-	height: 600px;
+	height: 800px;
 	background: #FCC	
 }
 
 .right_content{
-	width: 750px;
-	height: 600px;
+	width: 800px;
+	height: 800px;
 	background: #FCC;
 	float:right;
 }
 .left_sidebar{
-	width: 250px;
-	height: 600px;
+	width: 200px;
+	height: 800px;
 	background: #989;
 	float:left;
 	color:#FFF;
+}
+.sidebar_title,.brand_title{
+	background: #FFF;
+	color: #000;
+	padding: 10px;
+	font-size: 22px;
+	font-family: "Falatino Linotype","Book Antiqua", Falatino, serif;
+	text-align: center;
+}
+#category,#brand{
+	padding: 10px;
+	text-align: center;
+}
+#category  li,#brand  li{
+	list-style: none;				
+	padding: 10px;
+}
+#category li a, #brand li a{
+	color: #FFF;
+	font-size: 20px;
+	text-decoration: none;
+}
+#category li a:hover, #brand li a:hover{
+	color: #F39;
+	font-weight: bolder;
+	text-decoration: underline;
 }
 
 .footer_wrapper{
