@@ -25,6 +25,12 @@
 				<li><a href="cart.php">Shopping Cart</a></li>
 				<li><a href="#">Contact Us</a></li>			
 			</ul>
+			<div class="form">
+				<form action="result.php" method="post" enctype="multipart/form-data">
+				<input type="" name="user_query" placeholder="Search Products ...">
+				<input type="submit" name="search" value="Search">
+			</form>
+			</div>
 		</div>
 		<!-- Navbar Ends -->
 		<!-- Main Content Starts -->
