@@ -1,4 +1,3 @@
-# E-Commerce Solution using PHP & MySQLi with PayPal Integration
 E-commerce is online shopping store for selling & buying products. Data Driven Online Shopping Store in PHP and MySQLi. 
 It's built using HTML, CSS, Javascript, Ajax, JQuery, PHP, MySQLi. The Features that following below
 
