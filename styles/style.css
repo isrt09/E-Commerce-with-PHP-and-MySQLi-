@@ -51,6 +51,32 @@ body{
 	color:#FFF;
 }
 
+#menu {
+padding:0;
+margin-top: 5px;
+line-height:36px;
+float:left;
+}
+
+#menu li {
+list-style:none;
+display:inline;
+}
+
+#menu li a{
+	text-decoration: none;
+	color: #FFF;
+	margin: 5px; 
+	padding: 10px;
+	font-size: 18px;
+}
+
+#menu li a:hover{
+	text-decoration: underline;
+	color: yellow;
+	font-weight: bolder;
+}
+
 .content_wrapper{
 	width: 1000px;
 	height: 600px;
@@ -78,3 +104,4 @@ body{
 	color:#FFF;
 	clear:both;
 }
+
