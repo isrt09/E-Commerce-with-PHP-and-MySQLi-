@@ -1,3 +1,7 @@
+<?php 
+	include('includes/dbConn.php');
+	$conn = db();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,23 +43,29 @@
 			<div class="left_sidebar">
 				<div class="sidebar_title">Categories</div>
 				<ul id="category">
-					<li><a href="">Laptop</a></li>
-					<li><a href="">Mobile</a></li>
-					<li><a href="">Camera</a></li>
-					<li><a href="">Tables</a></li>
-					<li><a href="">Monitor</a></li>
-					<li><a href="">Printer</a></li>
-					<li><a href="">Tablet</a></li>
+					<?php 
+						$all_category = 'select * from categories';
+						$get_category = mysqli_query($conn,$all_category);
+						while($row = mysqli_fetch_array($get_category)){
+							$category_id = $row['category_id'];
+							$category_name = $row['category_name'];
+							echo "<li><a href='index.php?category=$category_id'>$category_name</a></li>";
+						}
+
+					 ?>
+					
 				</ul>
 				<div class="brand_title">Brand</div>
 				<ul id="brand">
-					<li><a href="">Apple</a></li>
-					<li><a href="">Sumsung</a></li>
-					<li><a href="">Huawei</a></li>
-					<li><a href="">HP</a></li>
-					<li><a href="">ASUS</a></li>
-					<li><a href="">DELL</a></li>
-					<li><a href="">FUJITSU</a></li>
+					<?php 
+						$all_brand = 'select * from brands';
+						$get_brand = mysqli_query($conn, $all_brand);
+						while($row = mysqli_fetch_array($get_brand)){
+							$brand_id   = $row['brand_id'];
+							$brand_name = $row['brand_name'];
+							echo "<li><a href='index.php?brand=$brand_id'>$brand_name</a></li>";
+						}
+					 ?>									
 				</ul>
 			</div>
 			<!-- Left Sidebar End -->
