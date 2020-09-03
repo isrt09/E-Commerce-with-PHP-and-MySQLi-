@@ -1,0 +1,14 @@
+Database & Tables
+
+Database :eShop
+
+Tables:
+
+1) Products
+2) Categories
+3) Brands
+4) Cart
+5) Customers
+6) Customers_orders
+7) Customers_pending
+8) Admins
